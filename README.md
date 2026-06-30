@@ -215,8 +215,6 @@ csv-race-style field counting:
 zig build bench -- --race path/to/file.csv
 ```
 
-Recent local ReleaseFast results on an Apple Silicon macOS machine showed the field-count path competitive with `csv-zero` and `lazycsv`, and the default borrowed table path around 1 GiB/s on favorable inputs. Benchmark results are hardware-, compiler-, and data-shape-dependent; rerun them locally before making performance claims.
-
 ## API Surface
 
 Core:
